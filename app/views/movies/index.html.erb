@@ -1,0 +1,10 @@
+<ul>
+<% movies.each do |m|  %>
+  <li>
+    <ul>
+      <li><%= m.title %>
+      <li><%= m.director.name %>
+    </ul>
+  </li>
+<% end %>
+</ul>
